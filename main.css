@@ -3,15 +3,22 @@ body {
     color: black;
 }
 
-footer {
-    text-align: center;
+.container {
+    width: 100%;
+    padding-left: 5%;
+  }  
+
+.myCard {  
+    float: left;
+    display: inline-block;
+    border: 5px solid black;
+    width: 45%;
 }
 
-/* MY CARD'S STYLING */
-
-.myCard {
-    width: 50%;
+.myDino {  
+    display: inline-block;
     border: 5px solid black;
+    width: 45%;
 }
 
 h1 {
@@ -19,20 +26,20 @@ h1 {
 }
 
 img {
-    align-items: center;
-    width: 80%;
-    height: 100%;
-    padding-left: 60px;
+    align-items : center;
+    max-width: 95%;
+    padding-left: 15px
 }
 
 p {
-    padding-left: 55px;
-    padding-right: 73px;
+    padding-left: 18px;
+    padding-right: 27px;
     text-align: justify;
 }
 
-/* MY DINO STYLING */
-
+footer {
+    text-align: center;
+}
 
 
 
